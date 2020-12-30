@@ -13,7 +13,7 @@ namespace UniversalExamplePlugin.Commands
     {
         protected override bool Execute(CommandExecutor executor, string[] args)
         {
-            UnturnedPlayer player = (UnturnedPlayer)executor.GetPlayer();
+            IRedoxPlayer player = executor.GetPlayer();
 
             foreach(string rule in UniversalExamplePlugin.Config.Rules)
             {
