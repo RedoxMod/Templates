@@ -3,7 +3,6 @@
 using Redox.API.Commands;
 using Redox.API.Player;
 using Redox.Core.Commands;
-using Redox.Unturned.Player;
 
 namespace UniversalExamplePlugin.Commands
 {

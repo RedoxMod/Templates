@@ -15,7 +15,7 @@ namespace ExamplePlugin.Commands
         {
             UnturnedPlayer player = (UnturnedPlayer)executor.GetPlayer();
 
-            foreach(string rule in UnturnedExamplePlugin.Config.Rules)
+            foreach (string rule in UnturnedExamplePlugin.Config.Rules)
             {
                 player.SendMessage(UnturnedExamplePlugin.Config.ChatName, rule);
             }
